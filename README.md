@@ -29,7 +29,7 @@ Add this to the top of your script
 
 To add preview_markdown this to a text area
 
-```ruby
+```erb
   <% preview_markdown :text_area_name %>
 ```
 
@@ -37,7 +37,7 @@ To add preview_markdown this to a text area
 
 To add the live preview functionallity add an empty div
 
-```ruby
+```erb
   <div id='preview_markdown'></div>
   <% preview_markdown :text_area_name, :preview => true %>
 ```
